@@ -12,8 +12,11 @@ composer require zvg/csvload
 2/ Add the service provider to config/app.php
 
 'providers' => [
+
     '...',
+    
     'Zvg\CsvLoad\CsvLoadServiceProvider::class',
+    
 ];
 
 3/ Publish the config file
