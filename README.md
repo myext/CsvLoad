@@ -7,7 +7,7 @@ Installation.
 
 1/ Install with Composer
 
-composer require .....
+composer require zvg/csvload
 
 2/ Add the service provider to config/app.php
 
