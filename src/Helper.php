@@ -86,11 +86,11 @@ class Helper
     {
         $this->file = $file;
 
-        if(!class_exists($modelName)) throw new ZvgException(trans('zvg::messages.not_model'));//проверка на существование модели
+        if(!class_exists($modelName)) throw new ZvgException(trans('zvg::messages.not_model'));
         $this->model = new $modelName();
 
         $this->tableName = $this->model->getTable();
-        if (!Schema::hasTable($this->tableName)) throw new ZvgException(trans('zvg::messages.not_table'));//проверка на существование таблицы
+        if (!Schema::hasTable($this->tableName)) throw new ZvgException(trans('zvg::messages.not_table'));
 
         $this->dbName = env('DB_DATABASE');
     }
