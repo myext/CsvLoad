@@ -40,7 +40,7 @@ add in composer.json
     
 ];
 
-3/ Publish the config file
+3/ Publish files
 
 php artisan vendor:publish --provider="Zvg\CsvLoad\CsvLoadServiceProvider"
 
