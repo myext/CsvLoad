@@ -5,6 +5,9 @@ The package works with the MySql and uses `INFORMATION_SCHEMA`
 
 Before using the software, you need to create a model and a table in the database.
 
+The fields of the csv file must match the fields in the DB table.
+
+
 Installation.
 
 1/ Install with Composer
