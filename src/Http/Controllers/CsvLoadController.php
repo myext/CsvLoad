@@ -151,7 +151,7 @@ class CsvLoadController extends Controller
         {
             logger($e->getMessage());
             return response()->json([
-                'type' => 'success',
+                'type' => 'error',
                 'message' => trans('zvg::messages.common_message')
             ]);
         }
