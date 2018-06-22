@@ -51,7 +51,7 @@ Using.
 
 Insert into your blade ( 'admin' or other ) form to load CSV file.
  
- @include('svg::csv from',['model' => 'your model'])
+ @include('zvg::csv_form',['model' => 'your model'])
   
   You need insert full model name
  ( for exemple @include('zvg::csv_form',['model' => '\App\Adress'])).
