@@ -93,7 +93,7 @@ class CsvLoadController extends Controller
 
                         $val = '';
 
-                        $data = explode(';', $buffer);
+                        $data = explode(config('zvg.delimeter'), $buffer);
 
                         foreach ($fieldsToInsert as $value) {
 
